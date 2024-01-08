@@ -13,7 +13,7 @@ body {
     color: #FFF;
     font-size: 20px;
     border: 0;
-    padding:10px 25px;
+    padding: 10px 25px;
 }
 
 
@@ -22,6 +22,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 150px;
 }
 
 nav>ul {
@@ -38,5 +39,26 @@ nav a {
     text-decoration: none;
     color: #474747;
     font-size: 20px;
-    
+}
+
+/* header related styles */
+.header-class {
+    border-color: #FFF8F3;
+
+}
+
+.banner {
+    padding: 50px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.text-greeting {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+.pro-picture{
+    width: 500px;
+    /* height: 670px; */
 }
