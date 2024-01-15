@@ -2,12 +2,12 @@
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
-        
+
 }
 
 .text-primary {
     color: #FD6E0A;
-    
+
 }
 
 .btn-primary {
@@ -39,10 +39,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
-    position: sticky;
     top: 10px;
-    
-    
 }
 
 .nav-title {
@@ -51,7 +48,7 @@ nav {
     font-weight: 800;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     align-items: center;
 }
@@ -72,7 +69,7 @@ nav a {
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, top left;
-    
+
 }
 
 .banner {
@@ -203,11 +200,12 @@ footer {
     width: 50%;
 }
 
-.social-links a{
+.social-links a {
     margin-right: 25px;
 }
 
-.contact input[type="text"], .contact input[type="email"],
+.contact input[type="text"],
+.contact input[type="email"],
 textarea {
     display: block;
     margin-bottom: 25px;
@@ -224,32 +222,42 @@ textarea {
 /* responsive styles */
 /* mpbile devices */
 @media screen and (max-width:576px) {
-    .skills-container, .resume-container, .banner, nav{
+
+    .skills-container,
+    .resume-container,
+    .banner,
+    nav {
         flex-direction: column;
-        
+
     }
-    
-    #what-i-do-description{
+
+    #what-i-do-description {
         padding: 10px;
-    }   
-    .header{
+    }
+
+    .header {
         background-image: none;
     }
+
     .banner .profile-pic {
         width: 100%;
     }
-    nav > ul{
+
+    nav>ul {
         flex-direction: column;
         gap: 10px;
     }
 }
 
 @media screen and (max-width:576px) {
-    footer, .about{
+
+    footer,
+    .about {
         flex-direction: column;
         padding: 10px;
-    }    
-    .footer-column{
+    }
+
+    .footer-column {
         width: 80%;
     }
 }
